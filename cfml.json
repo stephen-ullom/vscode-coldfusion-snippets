@@ -1,0 +1,92 @@
+{
+	"cfapplication": {
+		"prefix": "cfapplication",
+		"body": "<cfapplication name=\"$1\" applicationTimeout=#CreateTimeSpan($2)#>$0",
+		"description": "ColdFusion application."
+	},
+	"cfdump": {
+		"prefix": "cfdump",
+		"body": [
+			"<cfdump var=\"$1\">",
+			"\t$2",
+			"</cfdump>$0"
+		],
+		"description": "ColdFusion dump variable."
+	},
+	"cfif": {
+		"prefix": "cfif",
+		"body": [
+			"<cfif $1>",
+			"\t$2",
+			"</cfif>$0"
+		],
+		"description": "ColdFusion if statement."
+	},
+	"cfif else": {
+		"prefix": "cfif",
+		"body": [
+			"<cfif $1>",
+			"\t$2",
+			"<cfelse>",
+			"\t$3",
+			"</cfif>$0"
+		],
+		"description": "ColdFusion if statement."
+	},
+	"cfinclude": {
+		"prefix": "cfinclude",
+		"body": "<cfinclude template=\"$1\">$0",
+		"description": "ColdFusion include template."
+	},
+	"cflocation": {
+		"prefix": "cflocation",
+		"body": "<cflocation url=\"$1\">$0",
+		"description": "ColdFusion set location."
+	},
+	"cfloop index": {
+		"prefix": "cfloop",
+		"body": [
+			"<cfloop index=\"$1\" from=\"$2\" to=\"$3\">",
+			"\t$4",
+			"</cfloop>$0"
+		],
+		"description": "ColdFusion index loop."
+	},
+	"cfloop array": {
+		"prefix": "cfloop",
+		"body": [
+			"<cfloop array=\"$1\" index=\"$2\" item=\"$3\">",
+			"\t$4",
+			"</cfloop>$0"
+		],
+		"description": "ColdFusion array loop."
+	},
+	"cfoutput": {
+		"prefix": "cfoutput",
+		"body": "<cfoutput>$1</cfoutput>$0",
+		"description": "ColdFusion output."
+	},
+	"cfquery": {
+		"prefix": "cfquery",
+		"body": [
+			"<cfquery name=\"$1\" datasource=\"$2\">",
+			"\t$3",
+			"<cfquery>$0"
+		],
+		"description": "ColdFusion query."
+	},
+	"cfset": {
+		"prefix": "cfset",
+		"body": "<cfset $1>$0",
+		"description": "ColdFusion query."
+	},
+	"cfscript": {
+		"prefix": "cfscript",
+		"body": [
+			"<cfscript>",
+			"\t$1",
+			"</cfscript>$0"
+		],
+		"description": "ColdFusion script."
+	}
+}
