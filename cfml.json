@@ -73,12 +73,12 @@
 			"\t$3",
 			"<cfquery>$0"
 		],
-		"description": "ColdFusion query."
+		"description": "ColdFusion query string."
 	},
 	"cfset": {
 		"prefix": "cfset",
 		"body": "<cfset $1>$0",
-		"description": "ColdFusion query."
+		"description": "ColdFusion set variable."
 	},
 	"cfscript": {
 		"prefix": "cfscript",
