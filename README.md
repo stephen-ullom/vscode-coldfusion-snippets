@@ -5,8 +5,7 @@ Available Tags:
 
 -	&lt;cfapplication&gt;
 -	&lt;cfdump&gt;
--	&lt;cfif&gt;
--	&lt;cfif else&gt;
+-	&lt;cfif&gt; (else)
 -	&lt;cfinclude&gt;
 -	&lt;cflocation&gt;
 -	&lt;cfloop&gt; (index)
